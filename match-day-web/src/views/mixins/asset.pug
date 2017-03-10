@@ -1,0 +1,7 @@
+mixin asset(chunkName)
+  - var asset = webpackAssets[chunkName]
+  - var assets = Array.isArray(asset) ? asset : [asset]
+
+  each asset in assets
+    if asset.js
+      script(src=asset.js)

@@ -1,0 +1,23 @@
+{
+  "Services": {
+    "proxy": {
+      "Image": "mwallett/proxy@sha256:18cdc8dc4c76cd1805ff2bac887567de67a1c56977af15f9dfe75579cdbfa773", 
+      "Networks": [
+        "default"
+      ], 
+      "Ports": [
+        {
+          "Port": 80, 
+          "Protocol": "tcp"
+        }
+      ]
+    }, 
+    "web": {
+      "Image": "mwallett/web@sha256:e278606adc1369c4d0f35f5512d2ce701af12ea8aed6a50b04001512fe431d8c", 
+      "Networks": [
+        "default"
+      ]
+    }
+  }, 
+  "Version": "0.1"
+}

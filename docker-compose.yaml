@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+ proxy:
+   build: ./match-day-proxy
+   image: mwallett/match-day-proxy
+   ports:
+    - "80:80"
+
+ web:
+   build: ./match-day-web
+   image: mwallett/match-day-web
