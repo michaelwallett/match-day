@@ -2040,8 +2040,8 @@ map-stream@~0.1.0:
   resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
 
 md-button@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/md-button/-/md-button-1.0.3.tgz#ac87454d849f586cd6a720ff4d15f254f5bdc9ce"
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/md-button/-/md-button-1.0.4.tgz#7a93635e67ae4509ce3d4e57576cf2ae258aea02"
   dependencies:
     styled-components "^2.1.1"
 
