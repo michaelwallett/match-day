@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import styled from 'styled-components';
 
-class Hello extends Component {
-  render() {
-    return (
-      <h1>Hello again2!</h1>
-    );
-  }
-}
+const Hello = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
 
 export default Hello;

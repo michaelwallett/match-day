@@ -4,7 +4,9 @@ import Hello from './hello';
 class Home extends Component {
   render() {
     return (
-      <div>Hello World2! <Hello></Hello></div>
+      <div>
+        <Hello>Hello World!</Hello>
+      </div>
     );
   }
 }
