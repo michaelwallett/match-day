@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Button from './button';
+import Button from '@mwallett/md-button';
 
 class Home extends Component {
   render() {
