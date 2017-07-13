@@ -18,7 +18,7 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "styled-components": "^2.1.1",
-    "@mwallett/md-button": "^1.0.0"
+    "md-button": "^1.0.0"
   },
   "devDependencies": {
     "assets-webpack-plugin": "^3.5.0",
