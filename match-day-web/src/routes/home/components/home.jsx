@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Hello from './hello';
+import Button from './button';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <Hello>Hello World!</Hello>
+        <Button>Normal</Button>
+        <Button primary>Primary</Button>
       </div>
     );
   }
