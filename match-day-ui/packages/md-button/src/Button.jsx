@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import colours from 'md-colours';
 
-const StyledButton = styled.button`
+const Button = styled.button`
   font-size: 1.5em;
   margin: 1em;
   padding: 0.25em 1em;
@@ -11,6 +11,4 @@ const StyledButton = styled.button`
   color: ${(props) => props.primary ? 'white' : colours.primary};
 `;
 
-export default function Button({ children, ...props }) {
-  return <StyledButton {...props}>{children}</StyledButton>;
-}
+export default Button;
