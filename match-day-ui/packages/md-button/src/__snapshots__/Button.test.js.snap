@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When basic button rendered should output button 1`] = `
+<button
+  className="sc-bdVaJa fjIueO"
+>
+  Press Me
+</button>
+`;
