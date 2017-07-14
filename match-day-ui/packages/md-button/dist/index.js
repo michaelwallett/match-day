@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _Button = require('./Button.jsx');
+var _Button = require('./Button');
 
 Object.defineProperty(exports, 'default', {
   enumerable: true,
