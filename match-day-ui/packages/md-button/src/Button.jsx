@@ -1,7 +1,8 @@
+import React, { Component } from 'react';
 import styled from 'styled-components';
 import colours from 'md-colours';
 
-const Button = styled.button`
+const StyledButton = styled.button`
   font-size: 1.5em;
   margin: 1em;
   padding: 0.25em 1em;
@@ -11,4 +12,8 @@ const Button = styled.button`
   color: ${(props) => props.primary ? 'white' : colours.primary};
 `;
 
-export default Button;
+export default class Button extends Component {
+  render() {
+    return <StyledButton {...this.props}>{this.props.children}</StyledButton>;
+  }
+}
