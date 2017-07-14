@@ -1,10 +1,10 @@
 {
   "name": "md-button",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/index.js",
   "license": "MIT",
   "dependencies": {
-    "md-colours": "^1.0.1",
+    "md-colours": "^1.0.2",
     "styled-components": "^2.1.1"
   }
 }
