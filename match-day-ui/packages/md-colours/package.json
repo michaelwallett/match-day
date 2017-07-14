@@ -1,6 +1,6 @@
 {
   "name": "md-colours",
   "version": "1.0.1",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "license": "MIT"
 }
