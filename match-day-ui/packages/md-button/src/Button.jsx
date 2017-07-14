@@ -11,6 +11,6 @@ const StyledButton = styled.button`
   color: ${(props) => props.primary ? 'white' : colours.primary};
 `;
 
-const Button = props => <StyledButton {...props} />;
-
-export default Button;
+export default function Button({ children, ...props }) {
+  return <StyledButton {...props}>{children}</StyledButton>;
+}
