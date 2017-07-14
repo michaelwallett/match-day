@@ -2040,10 +2040,15 @@ map-stream@~0.1.0:
   resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
 
 md-button@^1.0.0:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/md-button/-/md-button-1.0.4.tgz#7a93635e67ae4509ce3d4e57576cf2ae258aea02"
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/md-button/-/md-button-1.0.12.tgz#6e0113c9afaa99b0149f9f7283ab7a8bc1350ddc"
   dependencies:
+    md-colours "^1.0.2"
     styled-components "^2.1.1"
+
+md-colours@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/md-colours/-/md-colours-1.0.2.tgz#b27ec47aa3d000cf25e576139788954b4ea14548"
 
 media-typer@0.3.0:
   version "0.3.0"
